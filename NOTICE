@@ -1,0 +1,21 @@
+KISS Skills for Claude
+Copyright 2026 Daniel Owens
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This project includes material adapted from third-party work:
+
+  "anti-overengineering" skill, part of agentit
+  Author: marcmarti9
+  Source: https://github.com/marcmarti9/agentit
+  Listed at: https://www.skillsdirectory.com/skills/marcmarti9-anti-overengineering
+  Licence: Apache License, Version 2.0 (same licence as this project; see LICENSE)
+
+Adapted portions: the BUILDER/REVIEW development cycle, the hard justification
+rule, the minimum-solution ladder, the verification budget and the risk
+override, as used in skills/kiss-advanced/SKILL.md, and the batching and
+evidence discipline in skills/project-rescue/SKILL.md.
+
+Changes made: the material was reorganised, rewritten and substantially
+extended, including new tiers (kiss-basic, kiss-advanced), project sizing,
+operating envelopes, architecture and platform decisions, multi-interface
+design, build sequencing, and the project-rescue and project-port skills.
