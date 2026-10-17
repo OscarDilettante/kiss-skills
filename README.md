@@ -19,9 +19,12 @@ Claude picks the right skill automatically. You can also ask for one by name.
 
 ## Install
 
-Install in **both** places: the Claude app (for planning) and Claude Code (for building).
+There are two kinds of install:
 
-### 1. Claude app (Mac or Windows)
+- **Claude app (desktop, web or mobile): once per account.** Upload each skill once and it's available everywhere you sign in to Claude.
+- **Claude Code in a terminal (CLI): once per computer.** The CLI only reads skills from a folder on that machine, so install them on each computer where you use it.
+
+### 1. Claude app: install once
 
 1. Download the four skill ZIP files from the [`downloads`](downloads) folder: `kiss-basic.zip`, `kiss-advanced.zip`, `project-rescue.zip`, `project-port.zip`.
 2. In Claude, go to **Settings > Capabilities** and turn on **code execution and file creation**.
@@ -30,9 +33,11 @@ Install in **both** places: the Claude app (for planning) and Claude Code (for b
 5. Upload each ZIP, one at a time.
 6. Check all four are switched on.
 
-### 2. Claude Code
+That's it for the app. You don't need to repeat this on other devices.
 
-Put the four skill folders inside your personal skills folder:
+### 2. Claude Code CLI: install on each computer
+
+Do this on every computer where you run Claude Code in a terminal. Put the four skill folders inside your personal skills folder on that machine:
 
 - **Mac:** `~/.claude/skills/`
 - **Windows:** `C:\Users\<your name>\.claude\skills\`
